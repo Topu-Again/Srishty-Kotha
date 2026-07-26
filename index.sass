@@ -272,6 +272,43 @@ footer
 
 
 
+.more-websites
+  margin-top: 70px
+  text-align: center
+
+  h3
+    font-family: "Cormorant Garamond", serif
+    font-size: 40px
+    color: #2A3B36
+
+  p
+    margin-top: 10px
+    color: #666
+    font-size: 17px
+
+.website-buttons
+  display: flex
+  justify-content: center
+  gap: 20px
+  flex-wrap: wrap
+  margin-top: 35px
+
+  a
+    padding: 18px 36px
+    border-radius: 50px
+    background: #51796F
+    color: white
+    font-weight: 600
+    transition: .35s
+    box-shadow: 0 15px 35px rgba(81,121,111,.25)
+
+    &:hover
+      transform: translateY(-6px)
+      background: #3F6359
+      box-shadow: 0 25px 45px rgba(81,121,111,.35)
+
+
+
 @keyframes float
 
   0%
@@ -389,6 +426,12 @@ footer
 
     p
       font-size: 17px
+
+  .website-buttons
+    flex-direction: column
+
+    a
+      width: 100%
 
 
 
